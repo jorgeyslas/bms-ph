@@ -1,6 +1,7 @@
 # bms-ph
 This repository contains the code accompanying the paper:
-Designing optimal bonus-malus systems under frequency-severity dependence via phase-type distributions. Asrar Alyafie, Corina Constantinescu, and Jorge Yslas
+
+Designing optimal bonus-malus systems under frequency-severity dependence via phase-type distributions. *Asrar Alyafie, Corina Constantinescu, and Jorge Yslas*
 
 Implementations in this repository include:
 - Expectation-maximization algorithms for parameter estimation of the proposed models.
