@@ -644,6 +644,8 @@ ph_ini <- phasetype(structure = "gcoxian", dimension = p)
 
 ph_fit <- fit_ph(ph_ini, np, wp, stepsEM = 100, stepsPH = 50, every = 1)
 #-14552.46
+fph_fit <- frailty(ph_fit, bhaz = "exponential", bhaz_pars = 1)
+
 
 ph_fit@pars$alpha %*% (-ph_fit@pars$S) %*% rep(1, p)
 
